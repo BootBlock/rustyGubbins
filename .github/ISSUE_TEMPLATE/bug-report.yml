@@ -1,0 +1,62 @@
+name: Report a bug
+description: Something is broken, looks wrong or doesn't do what its documentation says.
+title: "Bug: "
+labels: ["type: bug", "status: triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to tell us. We fix bugs ourselves rather than taking pull requests, so the more you can tell us here, the quicker we can sort it out.
+
+        Please don't use this form for a security problem: [SECURITY.md](https://github.com/BootBlock/rustyGubbins/blob/main/SECURITY.md) explains how to tell us privately.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect to happen instead?
+      placeholder: The menu opens behind the window when…
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we make it happen?
+      description: The steps, or a small piece of code, that show the problem.
+      placeholder: |
+        1. Open a window with a menu bar
+        2. Press Alt
+        3. …
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of the library is it?
+      options:
+        - Controls
+        - Theming
+        - Glass
+        - Text and Markdown
+        - Motion
+        - Accessibility
+        - Platform (windows, GPUs, the operating system)
+        - Building with Cargo
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: The crate version, or the commit you built from.
+      placeholder: 0.1.0, or a commit like 1a2b3c4
+  - type: input
+    id: platform
+    attributes:
+      label: Operating system and graphics card
+      placeholder: Windows 11 24H2, NVIDIA RTX 4070
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, logs or anything else that might help. Please check they don't show anything private, such as your name in a file path.

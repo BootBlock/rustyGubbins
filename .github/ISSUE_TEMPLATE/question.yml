@@ -1,0 +1,12 @@
+name: Ask a question
+description: Not sure how something works, or how to use it? Ask away.
+title: "Question: "
+labels: ["type: question", "status: triage"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What would you like to know?
+      description: If it's about some code, a short example helps us answer quickly.
+    validations:
+      required: true

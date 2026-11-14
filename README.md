@@ -51,7 +51,7 @@ A rich tooltip holding a small table:
 
 Edition badges in a menu, with the reason in a hint:
 
-![A light menu where two items carry a Studio badge and two a Game Dev badge, with a hint explaining that Make variations needs Game Dev](docs/images/edition-badges.png)
+![A light menu where two items carry a Studio badge and two a Game Dev badge at the end of the row, with a hint explaining that Make variations needs Game Dev](docs/images/edition-badges.png)
 
 ## Apps that use rustyGubbins
 

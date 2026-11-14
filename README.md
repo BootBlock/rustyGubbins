@@ -58,6 +58,10 @@ Edition badges in a menu, with the reason in a hint:
 - [AudioGubbins](https://github.com/BootBlock/AudioGubbins): a local-first, non-destructive audio
   editor, and the app rustyGubbins grew out of.
 
+AudioGubbins as it runs today, its menu bar, buttons and tabs drawn by rustyGubbins:
+
+![The AudioGubbins window with no project open: a menu bar, transport buttons, a time readout, level meters, workspace tabs, and three empty panels named Assets, Editor and Inspector](docs/images/audiogubbins.png)
+
 ## Getting it
 
 There's no release yet, and the crates aren't on crates.io. This README will say how to add

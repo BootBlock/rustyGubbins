@@ -3,15 +3,15 @@
 Thanks for taking an interest in rustyGubbins, and for thinking about helping out. It really is
 appreciated.
 
-We're not accepting pull requests, though. rustyGubbins is written and looked after by one small
-team, and keeping every change in our own hands is how we keep the controls, the themes and the
+We're not accepting pull requests, though. rustyGubbins is written and looked after by one developer,
+and keeping every change in my own hands is how I keep the controls, the themes, and the
 design consistent with each other. A pull request would be closed without being merged, however
-good it is, and we'd hate for anyone to spend their evening on one.
+good it is, and I'd hate for anyone to spend their evening on one.
 
 ## What helps most
 
-Open an issue and tell us what you need. We read every one, and when it's something we'll do, we
-write the change ourselves. There's a form for each kind of issue:
+Open an issue and tell me what you need. I read every one, and when it's something I'll do, I
+write the change myself. There's a form for each kind of issue:
 
 - [Report a bug](https://github.com/BootBlock/rustyGubbins/issues/new?template=bug-report.yml) if
   something is broken, looks wrong or doesn't do what its documentation says.
@@ -22,14 +22,14 @@ write the change ourselves. There's a form for each kind of issue:
 
 A short example that shows the problem, or a screenshot of what you're after, saves a lot of
 back and forth. Please search the [existing issues](https://github.com/BootBlock/rustyGubbins/issues)
-first, as someone may have asked already; if they have, a thumbs-up on theirs helps us see what
+first, as someone may have asked already; if they have, a thumbs-up on theirs helps me see what
 matters to people.
 
 ## Security problems
 
 Please don't report a security problem in a public issue. [SECURITY.md](SECURITY.md) explains how
-to tell us privately.
+to tell me privately.
 
 ## Code of conduct
 
-Be kind and patient with each other in issues. We'll lock or remove anything that isn't.
+Be kind and patient with each other in issues. I'll lock or remove anything that isn't.
